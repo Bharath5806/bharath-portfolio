@@ -3,7 +3,13 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Bharath Thokala- DevOps Engineer Portfolio</title>
+    <title>Bharath Thokala - DevOps Engineer Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
     <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
@@ -18,82 +24,102 @@
             </ul>
         </nav>
     </header>
+    
     <section id="hero">
         <div class="hero-content">
+            <!-- Profile Photo -->
+            <img src="images/profile-photo.jpg" alt="Bharath Thokala" class="profile-photo">
             <h2>DevOps Engineer</h2>
             <p>Automating infrastructure, streamlining deployments, and building scalable solutions</p>
             <a class="cta-button" href="#contact">Get In Touch</a>
         </div>
     </section>
+    
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I'm a passionate DevOps Engineer with expertise in cloud infrastructure, CI/CD pipelines, and container orchestration. I help organizations deliver software faster and more reliably through automation and best practices.</p>
+            <div class="about-content">
+                <div class="about-photo">
+                    <img src="images/profile-photo.jpg" alt="Bharath Thokala">
+                </div>
+                <div class="about-text">
+                    <p>I'm a passionate DevOps Engineer with expertise in cloud infrastructure, CI/CD pipelines, and container orchestration. I help organizations deliver software faster and more reliably through automation and best practices.</p>
+                    <p>With a strong background in AWS, Docker, Kubernetes, Jenkins, and Terraform, I specialize in creating robust deployment pipelines and maintaining high-availability systems.</p>
+                </div>
+            </div>
         </div>
     </section>
+    
     <section id="skills">
         <div class="container">
             <h2>Skills & Technologies</h2>
             <div class="skills-grid">
                 <div class="skill-card">
                     <h3>Cloud Platforms</h3>
-                    <p>AWS, Azure, Google Cloud Platform</p>
+                    <p>AWS, Azure, Google Cloud</p>
                 </div>
                 <div class="skill-card">
-                    <h3>Containers & Orchestration</h3>
-                    <p>Docker, Kubernetes, Helm</p>
+                    <h3>Containerization</h3>
+                    <p>Docker, Kubernetes</p>
                 </div>
                 <div class="skill-card">
-                    <h3>CI/CD Tools</h3>
-                    <p>Jenkins, GitLab CI, GitHub Actions, CircleCI</p>
+                    <h3>CI/CD</h3>
+                    <p>Jenkins, GitLab CI, GitHub Actions</p>
                 </div>
                 <div class="skill-card">
                     <h3>Infrastructure as Code</h3>
                     <p>Terraform, Ansible, CloudFormation</p>
                 </div>
                 <div class="skill-card">
-                    <h3>Monitoring & Logging</h3>
-                    <p>Prometheus, Grafana, ELK Stack, Datadog</p>
+                    <h3>Monitoring</h3>
+                    <p>Prometheus, Grafana, ELK Stack</p>
                 </div>
                 <div class="skill-card">
-                    <h3>Version Control</h3>
-                    <p>Git, GitHub, GitLab, Bitbucket</p>
+                    <h3>Scripting</h3>
+                    <p>Python, Bash, Shell</p>
                 </div>
             </div>
         </div>
     </section>
+    
     <section id="projects">
         <div class="container">
-            <h2>Featured Projects</h2>
+            <h2>Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <h3>Multi-Cloud Infrastructure Automation</h3>
-                    <p>Designed and implemented infrastructure as code using Terraform across AWS and Azure, reducing deployment time by 70%.</p>
+                    <h3>Infrastructure as Code with Terraform</h3>
+                    <p>Automated AWS infrastructure deployment using Terraform modules</p>
                 </div>
                 <div class="project-card">
-                    <h3>Kubernetes Cluster Management</h3>
-                    <p>Set up and maintained production Kubernetes clusters with auto-scaling, monitoring, and disaster recovery capabilities.</p>
+                    <h3>Kubernetes Deployment</h3>
+                    <p>Local Kubernetes cluster setup with Minikube for testing</p>
                 </div>
                 <div class="project-card">
-                    <h3>CI/CD Pipeline Implementation</h3>
-                    <p>Built comprehensive CI/CD pipelines using Jenkins and GitHub Actions, enabling automated testing and deployment for microservices.</p>
+                    <h3>Jenkins CI/CD Pipeline</h3>
+                    <p>Complete CI/CD pipeline for Java Maven applications</p>
+                </div>
+                <div class="project-card">
+                    <h3>Node.js Demo App</h3>
+                    <p>Containerized Node.js application with Docker</p>
                 </div>
             </div>
         </div>
     </section>
+    
     <section id="contact">
         <div class="container">
-            <h2>Get In Touch</h2>
-            <p>Interested in working together? Let's connect!</p>
-            <div class="contact-links">
-                <a href="https://github.com/Bharath5806" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/bharath--thokala/" target="_blank">LinkedIn</a>
-                <a href="mailto:bharaththokala5806@gmail.com.com">Email</a>
+            <h2>Contact Me</h2>
+            <p>Let's connect and discuss how we can work together!</p>
+            <div class="contact-info">
+                <a href="https://github.com/Bharath5806" class="contact-button" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" class="contact-button" target="_blank">LinkedIn</a>
+                <a href="mailto:bharath@example.com" class="contact-button">Email</a>
             </div>
         </div>
     </section>
+    
     <footer>
-        <p>© 2025 Bharath. All rights reserved.</p>
+        <p>&copy; 2025 Bharath Thokala. All rights reserved.</p>
     </footer>
 </body>
 </html>
